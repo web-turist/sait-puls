@@ -43,6 +43,37 @@ $(document).ready(function(){
         $('.overlay, #order').fadeIn();
       });
     });
+
+    // Validate
+
+    function valideForms(form) {
+      $(form).validate({
+        rules: {
+          name: "required",
+          phone: "required",
+          email: {
+            required: true,
+            email: true
+          }
+        },
+        messages: {
+          name: "Пожалуйста введите своё имя",
+          phone: "Пожалуйста введите свой номер телефона",
+          email: {
+            required: "Пожалуйста введите свой email",
+            email: "Неправлиьно введен email"
+          }
+        }
+      });
+    }
+
+    valideForms('#consultation-form');
+    valideForms('#consultation form');
+    valideForms('#order form');
+
+    //Mask
+
+    $('input[name=phone]').mask("+7 (999) 999-99-99");
   });
 
   
