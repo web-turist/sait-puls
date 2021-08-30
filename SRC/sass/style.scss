@@ -1,4 +1,5 @@
 @import 'base/variables';
+@import 'base/animations';
 
 body {
     font-family: 'Museo Sans Cyrl';
@@ -21,3 +22,4 @@ body {
 @import 'blocks/feed';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';
