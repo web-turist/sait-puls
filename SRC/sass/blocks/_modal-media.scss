@@ -1,0 +1,20 @@
+@media(max-width: 576px) {
+    .modal {
+        &__close {
+            top: 5px;
+            right: 5px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        width: 300px;
+        padding: 38px 5px 40px 5px;
+        .feed-form {
+            width: 250px;
+            input {
+                width: 250px;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,21 @@
+@media(max-width: 992px) {
+    .footer {
+        &__info {
+            position: unset;
+            transform: none;
+            margin: 0 auto;
+        }
+    }
+}
+@media(max-width: 576px) {
+    .footer {
+        &__info {
+            width: 100%;
+            padding: 10px;
+            min-height: 200px;
+        }
+        &__addr {
+            font-size: 18px;
+        }
+    }
+}
