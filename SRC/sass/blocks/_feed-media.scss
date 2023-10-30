@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media(max-width: 992px) {
     .feed {
         .title {
@@ -51,4 +52,59 @@
             text-align: center;
         }
     }
+=======
+@media(max-width: 992px) {
+    .feed {
+        .title {
+            font-size: 26px;
+        }
+        &__item {
+            margin-left: 5px;
+            margin-top: 50px;
+        }
+    }
+}
+@media(max-width: 768px) {
+    .feed {
+        .title {
+            font-size: 26px;
+        }
+        &__item {
+            margin-left: 5px;
+            margin-top: 30px;
+            flex-direction: column;
+            &:nth-child(2){
+                margin-top: 30px;
+            }
+        }
+        &__img {
+            width: 100px;
+            height: 100px;
+            img {
+                width: 100px;
+            }
+        }
+        &__text {
+            padding: 0;
+            margin: 10px 0 0 0;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .feed {
+        .title {
+            font-size: 22px;
+        }
+        &__item {
+            align-items: center;
+        }
+        &__text {
+            text-align: center;
+        }
+    }
+>>>>>>> 2377bf10d2d5cdbcdb9cc715a658eb4d351dd419
 }

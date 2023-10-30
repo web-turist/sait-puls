@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media(max-width: 992px) {
     .carousel {
         &__inner {
@@ -51,4 +52,59 @@
     }
 
     
+=======
+@media(max-width: 992px) {
+    .carousel {
+        &__inner {
+            width: 600px;
+            div {
+                margin: 0 auto;
+                width: 500px;
+                img {
+                    width: 100%;
+                    }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .carousel {
+        &__inner {
+            width: 400px;
+            div {
+                margin: 0 auto;
+                width: 300px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .carousel {
+        &__inner {
+            width: 250px;
+            div {
+                margin: 0 auto;
+                width: 200px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .slick-prev {
+            left: -20px;
+            transform: none;
+        }
+        .slick-next {
+            right: -20px;
+            transform: none;
+        }
+    }
+
+    
+>>>>>>> 2377bf10d2d5cdbcdb9cc715a658eb4d351dd419
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'base/variables';
 @import 'base/animations';
 
@@ -32,3 +33,39 @@ body {
 @import 'blocks/feed-media';
 @import 'blocks/footer-media';
 @import 'blocks/modal-media';
+=======
+@import 'base/variables';
+@import 'base/animations';
+
+body {
+    font-family: 'Museo Sans Cyrl';
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/titles';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/feed';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+
+@import 'blocks/promo-media';
+@import 'blocks/advantages-media';
+@import 'blocks/consultation-media';
+@import 'blocks/carousel-media';
+@import 'blocks/catalog-media';
+@import 'blocks/feed-media';
+@import 'blocks/footer-media';
+@import 'blocks/modal-media';
+>>>>>>> 2377bf10d2d5cdbcdb9cc715a658eb4d351dd419
